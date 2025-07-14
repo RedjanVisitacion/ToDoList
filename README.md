@@ -10,7 +10,7 @@
 
 <!-- Logo Image -->
 <div align="center">
-  <img class="headP hlogo" src="img/icon.png" alt="App Logo" style="max-width: 200px; margin-top: 20px;">
+  <img class="headP hlogo" src="img/RPSV_ICON.png" alt="App Logo" style="max-width: 200px; margin-top: 20px;">
 </div>
 
 <!-- App Info -->
@@ -33,7 +33,7 @@
 
 <!-- Footer -->
 <p align="center" style="font-size: 14px; color: #888; font-family: Arial, sans-serif;">
-  &copy; <strong>Redjan Visitacion</strong> <span id="year"></span>. All rights reserved.
+  &copy; <strong>Redjan Visitacion</strong> 2025. All rights reserved.
 </p>
 
 <hr style="border: 0; border-top: 1px solid #ccc; margin-top: 20px;">
@@ -41,7 +41,3 @@
 <p align="center" style="font-size: 14px; color: #777; font-family: Arial, sans-serif;">
   This application was developed by <strong>Redjan Visitacion</strong> as a personal learning project in Flutter.
 </p>
-
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
