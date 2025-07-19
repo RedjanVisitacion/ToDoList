@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Center(
           child: Text(
-            'Redjan\'s Simple Todo List',
+            'Redjan\'s Simple Task List',
           ),
         ),
         backgroundColor: const Color.fromRGBO(212, 39, 68, 1.0),
