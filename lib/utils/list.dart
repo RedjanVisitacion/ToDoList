@@ -37,7 +37,7 @@ class TodoList extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
-            color: Colors.red,
+            color: const Color.fromRGBO(212, 39, 68, 1.0),
             borderRadius: BorderRadius.circular(15),
           ),
           child: Row(

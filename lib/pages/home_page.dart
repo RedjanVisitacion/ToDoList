@@ -37,14 +37,14 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.redAccent.shade100,
+      backgroundColor: const Color.fromARGB(153, 255, 69, 109),
       appBar: AppBar(
         title: const Center(
           child: Text(
             'Redjan\'s Simple Todo List',
           ),
         ),
-        backgroundColor: Colors.red,
+        backgroundColor: Color.fromRGBO(212, 39, 68, 1.0),
         foregroundColor: Colors.white,
       ),
       body: ListView.builder(
@@ -72,13 +72,13 @@ class _HomePageState extends State<HomePage> {
                     fillColor: Colors.red.shade200,
                     enabledBorder: OutlineInputBorder(
                       borderSide: const BorderSide(
-                        color: Colors.red,
+                        color: Color.fromRGBO(212, 39, 68, 1.0),
                       ),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: const BorderSide(
-                        color: Colors.red,
+                        color: Color.fromRGBO(212, 39, 68, 1.0),
                       ),
                       borderRadius: BorderRadius.circular(15),
                     ),
