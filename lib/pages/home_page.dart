@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
             'Redjan\'s Simple Todo List',
           ),
         ),
-        backgroundColor: Color.fromRGBO(212, 39, 68, 1.0),
+        backgroundColor: const Color.fromRGBO(212, 39, 68, 1.0),
         foregroundColor: Colors.white,
       ),
       body: ListView.builder(
@@ -66,19 +66,25 @@ class _HomePageState extends State<HomePage> {
                 padding: const EdgeInsets.symmetric(horizontal: 30),
                 child: TextField(
                   controller: _controler,
+                  style: const TextStyle(
+                    color: Color.fromRGBO(212, 39, 68, 1.0),
+                  ),
+                  cursorColor: Color.fromRGBO(212, 39, 68, 1.0),
                   decoration: InputDecoration(
+                    focusColor: Color.fromRGBO(212, 39, 68, 1.0),
                     hintText: 'Add a new todo items',
+                    hintStyle: const TextStyle(color: Colors.redAccent),
                     filled: true,
-                    fillColor: Colors.red.shade200,
+                    fillColor: const Color.fromARGB(255, 231, 196, 192),
                     enabledBorder: OutlineInputBorder(
                       borderSide: const BorderSide(
-                        color: Color.fromRGBO(212, 39, 68, 1.0),
+                        color: Color.fromRGBO(255, 255, 255, 1),
                       ),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: const BorderSide(
-                        color: Color.fromRGBO(212, 39, 68, 1.0),
+                        color: Color.fromRGBO(255, 255, 255, 1),
                       ),
                       borderRadius: BorderRadius.circular(15),
                     ),
@@ -88,7 +94,10 @@ class _HomePageState extends State<HomePage> {
             ),
             FloatingActionButton(
               onPressed: saveNewTask,
-              child: const Icon(Icons.add),
+              child: const Icon(
+                Icons.add,
+                color: Color.fromRGBO(212, 39, 68, 1.0),
+              ),
             ),
           ],
         ),
