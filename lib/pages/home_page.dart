@@ -37,14 +37,14 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple.shade300,
+      backgroundColor: Colors.redAccent.shade100,
       appBar: AppBar(
         title: const Center(
           child: Text(
-            'Simple Todo List',
+            'Redjan\'s Simple Todo List',
           ),
         ),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.red,
         foregroundColor: Colors.white,
       ),
       body: ListView.builder(
@@ -69,16 +69,16 @@ class _HomePageState extends State<HomePage> {
                   decoration: InputDecoration(
                     hintText: 'Add a new todo items',
                     filled: true,
-                    fillColor: Colors.deepPurple.shade200,
+                    fillColor: Colors.red.shade200,
                     enabledBorder: OutlineInputBorder(
                       borderSide: const BorderSide(
-                        color: Colors.deepPurple,
+                        color: Colors.red,
                       ),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: const BorderSide(
-                        color: Colors.deepPurple,
+                        color: Colors.red,
                       ),
                       borderRadius: BorderRadius.circular(15),
                     ),

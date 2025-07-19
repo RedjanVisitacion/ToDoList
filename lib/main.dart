@@ -12,7 +12,7 @@ class MyFirstApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'RPSV',
+      title: 'RPSV\'s TODO LIST',
       home: HomePage(),
     );
   }
